@@ -74,3 +74,9 @@ The library used ([jasmine] / [jasmine-jquery]) is specified in comments at the 
 
 - [Jasmine](https://jasmine.github.io/) - v. 3.1.0
 - [Jasmine-Jquery](https://github.com/velesin/jasmine-jquery) - v. 2.1.1
+
+## Reporting issues
+Please report issues, bugs & new feature requests at: https://github.com/alffox/grow-theme-user-profile-theme-automated-tests/issues
+
+## Contributing
+You may send Pull Requests according to these guidelines: https://udacity.github.io/git-styleguide/
