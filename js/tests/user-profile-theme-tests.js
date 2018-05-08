@@ -37,7 +37,7 @@ $(function() {
 
             // Get Logged user name from Activities portlet's header
             var activitiesPortletHeader = $('th').text();
-            var activitiesPortletUserName = activitiesPortletHeader.slice(1, activitiesPortletHeader.indexOf("'")).toLowerCase();
+            var activitiesPortletUserName = activitiesPortletHeader.slice(1, activitiesPortletHeader.indexOf("'")).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 
             // Check for strings equality
             expect(urlUserName).toEqual(activitiesPortletUserName);
