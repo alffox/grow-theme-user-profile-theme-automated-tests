@@ -6,7 +6,7 @@ This project aims to automate front-end tests for a Liferay DXP intranet page st
 ## How to run the project
 1) Get the necessary files for Jasmine and Jasmine-Jquery:
 
-Jasmine:
+1.a Jasmine:
 - Download a standalone zip file from https://github.com/jasmine/jasmine/releases, the below files should be contained in it:
 
 - jasmine.css
@@ -14,10 +14,11 @@ Jasmine:
 - jasmine-html.js
 - boot.js
 
-Jasmine-jquery:
+1.b Jasmine-jquery:
 - https://github.com/velesin/jasmine-jquery/blob/master/lib/jasmine-jquery.js
 
-- The JS file where your tests specs are coded. For this project, [user-profile-theme-tests.js](https://github.com/alffox/grow-theme-user-profile-theme-automated-tests/blob/master/js/tests/user-profile-theme-tests.js)
+1.c The JS file where your tests specs are coded.
+-For this project, [user-profile-theme-tests.js](https://github.com/alffox/grow-theme-user-profile-theme-automated-tests/blob/master/js/tests/user-profile-theme-tests.js)
 
 2) Include them in your HTML through portal_normal.ftl:
 ```
