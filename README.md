@@ -64,7 +64,6 @@ The tests ensure that the:
 
 **Activity selector**
 - is present on page
-- calls *filterByActivityType()* function on Activity selector *change* event
 
 **Grow Subscriber portlet**
 - is present on page
